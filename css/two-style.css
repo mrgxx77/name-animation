@@ -1,0 +1,11 @@
+table{
+    background-color: black;
+}
+td:hover{
+    background-color: rgb(211, 193, 193);
+}
+td{
+    background-color: rgb(170, 156, 156);
+    padding: 20px;
+    text-align: center;
+}

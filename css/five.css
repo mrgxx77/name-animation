@@ -1,0 +1,148 @@
+
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 350px;
+    background-color: #fff;
+}
+
+.flex-between {
+    display: flex;
+    /* justify-content: space-between; */
+}
+.parent p{
+  font-size: 100px;
+}
+.parent{
+    overflow: hidden;
+    transition: all 2s ease;
+    animation: m 3s infinite;
+    /* text-align: center; */
+    padding-left: 500px;
+}
+
+@keyframes m{
+  0%{
+    transform: translate(0px);
+  }
+  25%{
+    transform: translate(50px, -50px);
+  }
+  50%{
+    transform: translateX(100px);
+  } 
+  75%{
+    transform: translateY(50px);
+  }
+  100%{
+    transform: translateX(-1500px);
+  }
+}
+
+
+
+
+.two-parent p{
+    font-size: 100px;
+    margin-right: 19px;
+  }
+  .two-parent{
+    overflow: hidden;
+    padding-left: 500px;
+
+  }
+  .M{
+    padding-left: 30px;
+     transition: all 2s ease;
+     animation: M 10s infinite 1.6s;
+  }
+  .A{
+     transition: all 2s ease;
+     animation: A 10s infinite 1.6s;
+  }.R{
+     transition: all 2s ease;
+     animation: R 10s infinite 1.8s;
+  }.G{
+     transition: all 2s ease;
+     animation: G 10s infinite 1.8s;
+  }.A-two{
+     transition: all 2s ease;
+     animation: A-two 10s infinite 1.85s;
+  }.R-two{
+     transition: all 2s ease;
+     animation: R-two 10s infinite 1.9s;
+  }.I{
+     transition: all 2s ease;
+     animation: I 10s infinite 1.95s;
+  }.T{
+     transition: all 2s ease;
+     animation: T 10s infinite 2s;
+  }.A-three{
+     transition: all 2s ease;
+     animation: A-three 10s infinite 2.1s;
+  }
+  .parent-circle{
+     transition: all 2s ease;
+     animation: circle 10s infinite 1s;
+  }
+  .circle{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translate(-150px, -150px);
+  }
+  
+  @keyframes circle{
+    0%{
+      transform: translateX(-150px);
+    }
+    100%{
+      transform: translateX(7000px);
+    }
+  }
+  @keyframes M{
+    100%{
+      transform: translateY(-1500px);
+    }
+  }
+  @keyframes A{
+    100%{
+      transform: translateY(-1500px);
+    }
+  }
+  @keyframes R{
+    100%{
+      transform: translateY(-1500px);
+    }
+  }
+  @keyframes G{
+    100%{
+      transform: translateY(-1500px);
+    }
+  }
+  @keyframes A-two{
+    100%{
+      transform: translateY(-1500px);
+    }
+  }
+  @keyframes R-two{
+    100%{
+      transform: translateY(-1500px);
+    }
+  }
+  @keyframes I{
+    100%{
+      transform: translateY(-1500px);
+    }
+  }
+  @keyframes T{
+    100%{
+      transform: translateY(-1500px);
+    }
+  }
+  @keyframes A-three{
+    100%{
+      transform: translateY(-1500px);
+    }
+  }

@@ -1,0 +1,26 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+td{
+    text-align: end;
+}
+td:first-child,
+td:nth-child(2){
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+button{
+    border: none;
+    background-color: #fff;
+}
+td:has(button){
+    border: none;
+    padding: 0;
+}
