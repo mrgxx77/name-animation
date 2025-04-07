@@ -1,4 +1,6 @@
-
+body{ 
+  font-family: "Boldonse";
+}
 
 .wrapper{
     margin: 0 auto;
@@ -54,43 +56,45 @@
   .M{
     padding-left: 30px;
      transition: all 2s ease;
-     animation: M 10s infinite 1.6s;
+     animation: M 5s infinite 1.6s;
   }
   .A{
      transition: all 2s ease;
-     animation: A 10s infinite 1.6s;
+     animation: A 5s infinite 1.6s;
   }.R{
      transition: all 2s ease;
-     animation: R 10s infinite 1.8s;
+     animation: R 5s infinite 1.8s;
   }.G{
      transition: all 2s ease;
-     animation: G 10s infinite 1.8s;
+     animation: G 5s infinite 1.8s;
   }.A-two{
      transition: all 2s ease;
-     animation: A-two 10s infinite 1.85s;
+     animation: A-two 5s infinite 1.85s;
   }.R-two{
      transition: all 2s ease;
-     animation: R-two 10s infinite 1.9s;
+     animation: R-two 5s infinite 1.9s;
   }.I{
      transition: all 2s ease;
-     animation: I 10s infinite 1.95s;
+     animation: I 5s infinite 1.95s;
   }.T{
      transition: all 2s ease;
-     animation: T 10s infinite 2s;
+     animation: T 5s infinite 2s;
   }.A-three{
      transition: all 2s ease;
-     animation: A-three 10s infinite 2.1s;
+     animation: A-three 5s infinite 2.1s;
   }
   .parent-circle{
-     transition: all 2s ease;
-     animation: circle 10s infinite 1s;
+    transition: all 5s ease;
+    animation: circle 5s infinite 1s;
+    max-width: 1000px;
+    /* overflow: hidden; */
   }
   .circle{
     background-color: blue;
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    transform: translate(-150px, -150px);
+    transform: translate(-150px, -250px);
   }
   
   @keyframes circle{
@@ -98,51 +102,78 @@
       transform: translateX(-150px);
     }
     100%{
-      transform: translateX(7000px);
+      transform: translateX(1700px);
     }
   }
   @keyframes M{
-    100%{
-      transform: translateY(-1500px);
+    50%{
+      transform: translateY(-500px);
+    }
+    70%{
+      transform: translateY(0px);
     }
   }
   @keyframes A{
-    100%{
-      transform: translateY(-1500px);
+    50%{
+      transform: translateY(-500px);
+    }
+    70%{
+      transform: translateY(0px);
     }
   }
   @keyframes R{
-    100%{
-      transform: translateY(-1500px);
+    50%{
+      transform: translateY(-500px);
+    }
+    70%{
+      transform: translateY(0px);
     }
   }
   @keyframes G{
-    100%{
-      transform: translateY(-1500px);
+    50%{
+      transform: translateY(-500px);
+    }
+    70%{
+      transform: translateY(0px);
     }
   }
   @keyframes A-two{
-    100%{
-      transform: translateY(-1500px);
+    50%{
+      transform: translateY(-500px);
+    }
+    70%{
+      transform: translateY(0px);
     }
   }
   @keyframes R-two{
-    100%{
-      transform: translateY(-1500px);
+    50%{
+      transform: translateY(-500px);
+    }
+    70%{
+      transform: translateY(0px);
     }
   }
   @keyframes I{
-    100%{
-      transform: translateY(-1500px);
+    50%{
+      transform: translateY(-500px);
+    }
+    70%{
+      transform: translateY(0px);
     }
   }
   @keyframes T{
-    100%{
-      transform: translateY(-1500px);
+    50%{
+      transform: translateY(-500px);
+    }
+    70%{
+      transform: translateY(0px);
     }
   }
   @keyframes A-three{
-    100%{
-      transform: translateY(-1500px);
+    50%{
+      transform: translateY(-500px);
+    }
+    70%{
+      transform: translateY(0px);
     }
   }
