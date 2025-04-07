@@ -1,5 +1,9 @@
 body{ 
-  font-family: "Boldonse";
+  font-family: "LXGW WenKai Mono TC", monospace;
+}
+
+.overflow{
+  overflow: hidden; 
 }
 
 .wrapper{
@@ -86,8 +90,7 @@ body{
   .parent-circle{
     transition: all 5s ease;
     animation: circle 5s infinite 1s;
-    max-width: 1000px;
-    /* overflow: hidden; */
+    /* max-width: 1000px; */
   }
   .circle{
     background-color: blue;
